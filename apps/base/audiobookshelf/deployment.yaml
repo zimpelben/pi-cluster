@@ -29,7 +29,7 @@ spec:
             - containerPort: 3005
               protocol: TCP
 
-          volumeMoutns:
+          volumeMounts:
             - mountPath: /config
               name: audiobookshelf-config
             - mountPath: /metadata
