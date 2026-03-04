@@ -37,15 +37,15 @@ spec:
             - mountPath: /audiobooks
               name: audiobookshelf-audiobooks
 
-    restartPolicy: Always
+      restartPolicy: Always
 
-    volumes:
-      - name: audiobookshelf-config
-        persistentVolumeClaim:
-          claimName: audiobookshelf-config
-      - name: audiobookshelf-metadata
-        persistentVolumeClaim:
-          claimName: audiobookshelf-audiobooks
-      - name: audiobookshelf-audiobooks
-        persistentVolumeClaim:
-          claimName: audiobookshelf-audiobooks
+      volumes:
+        - name: audiobookshelf-config
+          persistentVolumeClaim:
+            claimName: audiobookshelf-config
+        - name: audiobookshelf-metadata
+          persistentVolumeClaim:
+            claimName: audiobookshelf-audiobooks
+        - name: audiobookshelf-audiobooks
+          persistentVolumeClaim:
+            claimName: audiobookshelf-audiobooks
