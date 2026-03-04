@@ -41,7 +41,7 @@ spec:
             claimName: audiobookshelf-config
         - name: audiobookshelf-metadata
           persistentVolumeClaim:
-            claimName: audiobookshelf-audiobooks
+            claimName: audiobookshelf-metadata
         - name: audiobookshelf-audiobooks
           persistentVolumeClaim:
             claimName: audiobookshelf-audiobooks
