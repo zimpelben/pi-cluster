@@ -9,5 +9,4 @@ Kubernetes homelab
 
 ## Next steps
 - Add more apps to the cluster
-- Exposing Linding to the internet via cloudflare tunnels
 - Build public homelab dashboard
