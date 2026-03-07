@@ -10,3 +10,4 @@ Kubernetes homelab
 ## Next steps
 - Add more apps to the cluster
 - Build public homelab dashboard
+- Add second node to the cluster
