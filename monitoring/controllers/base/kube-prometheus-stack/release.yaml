@@ -27,7 +27,8 @@ spec:
           kind: PrometheusRule
   values:
     grafana:
-      existingSecret: grafana-env
+      admin:
+        existingSecret: grafana-env
       ingress:
         enabled: true
 
