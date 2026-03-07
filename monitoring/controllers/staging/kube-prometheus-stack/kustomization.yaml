@@ -4,4 +4,4 @@ namespace: monitoring
 resources:
   - ../../base/kube-prometheus-stack
   - grafana-env.yaml
-  - values.yaml
+#  - values.yaml
