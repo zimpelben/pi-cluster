@@ -2,8 +2,8 @@
 Kubernetes homelab
 
 ## Current setup
-- 1 raspberry pi running FluxCD
-- 1 app - linkding running
+- 1 raspberry pi running k3s and being managed through Flux
+- 2 apps - linkding and audiobookshelf running
 - Monitoring - running Grafana via kube-promethus-stack
 - Automation - using Renovate to automate image updates
 
