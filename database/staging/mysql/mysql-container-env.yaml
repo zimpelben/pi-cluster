@@ -1,0 +1,21 @@
+apiVersion: v1
+data:
+    MYSQL_ROOT_PASSWORD: ENC[AES256_GCM,data:/bKj4/NdDI79BaFDwpAAo9yXABCqrH1lG3Wp0/VRMg29sQAH2RLWHQ==,iv:7k8sDw2JWbQt3CbEaI+0P295Wts4CV+YUvapI7rMCuQ=,tag:mZNnsMIovI0sx9JHc9WC+Q==,type:str]
+kind: Secret
+metadata:
+    name: mysql-container-env
+sops:
+    age:
+        - recipient: age1ws023uxrlf5dkugely0w09tk7xsj5a6sc0234su5pjsna5063vdqzznhtx
+          enc: |
+            -----BEGIN AGE ENCRYPTED FILE-----
+            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBiVDdHNTUvbzFGcGxrMUl4
+            WHFWRkUrVXJRMG1CaXZwOTE1UnU5N0JqNkdnClFrcGFUc0l4bC85cVF6UUdEMDZM
+            OFV5amFRNFJZby9uYlM1b2x1aXhGckkKLS0tIE5kTUhaclF0VG8xR2JWd2ljazFE
+            WVB6MG9LZlFYeG44Wmk0Sk5kZ2d0djgKJzpxYNxCS+CGeGOgXKQspJIa+g17yCDh
+            qod/Lgd4tLIPNE8b/YwVZXMENNZ+ppLa3slIbRwHXoE7vgJ7aBJHYQ==
+            -----END AGE ENCRYPTED FILE-----
+    lastmodified: "2026-04-04T22:30:08Z"
+    mac: ENC[AES256_GCM,data:KxChPL9wqNbNo5L06FHTA9O/MmBpTh+QT/gjUkW7E4ATbtydomM3j0PaGVhvLDp2wmAWhthqerDybn4322yznxpOJBvUlwRYrjDLxian1WOV9MJQqxEk7pes7ibn0duhNAxEUCV0/3Pcc0gHR7SA8AQ8m87A0SdSc5mWY79KijY=,iv:p7+FK6NoWsTG749fPmPxh4VKpZT35o8YC5vX+W7Cebw=,tag:kTA+yfD9MRCzjmkLHfMDkg==,type:str]
+    encrypted_regex: ^(data|stringData)$
+    version: 3.12.2
