@@ -6,6 +6,7 @@ Self-hosted multi-node cluster running on raspberry pi's using k3s and FluxCD.
 ## Stack Overview
 
 | Layer | Tool |
+| --- | --- |
 | Kubernetes | k3s |
 | GitOps | FluxCD |
 | Networking | Traefik |
@@ -17,6 +18,7 @@ Self-hosted multi-node cluster running on raspberry pi's using k3s and FluxCD.
 ## Host Specs
 
 | Spec | Control plane | Worker node |
+| --- | --- | --- |
 | Machine | Raspberry Pi 4 | Raspberry Pi 4 |
 | Memeory | 8 GB | 4 GB |
 | Storage | 64 GB | 64 GB |
@@ -24,6 +26,7 @@ Self-hosted multi-node cluster running on raspberry pi's using k3s and FluxCD.
 ## Deployed Applications
 
 | App | Function |
+| --- | --- |
 | Linkding | Bookmark manager |
 | Audobookshelf | Audiobook and podcast server |
 | Prometheus & Grafana | Monitoring & Dashboards |
