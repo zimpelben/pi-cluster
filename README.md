@@ -15,6 +15,17 @@ Self-hosted multi-node cluster running on raspberry pi's using k3s and FluxCD.
 | Database | CloudNative-PG |
 | Automated dependency updates | Renovate |
 
+## Repository Structure
+
+```
+.
+|-- apps              # Applications manifests
+|-- clusters          # Flux bootstrap and cluster definitions
+|-- database          # Directory manifests
+|-- infrastructure    # Infrastructure components 
+|-- monitoring        # Monitoring stack
+```
+
 ## Host Specs
 
 | Spec | Control plane | Worker node |
