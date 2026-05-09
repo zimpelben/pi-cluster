@@ -22,10 +22,6 @@ spec:
           ports:
             - containerPort: 9190
 
-          envFrom:
-            - secretRef:
-                name: linkding-container-env
-
           securityContext:
             allowPrivilegeEscalation: false
 
