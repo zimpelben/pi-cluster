@@ -29,6 +29,10 @@ spec:
             - name: n8n_data
               mountPath: /home/node/.n8n 
 
+          envFrom:
+            - configMapRef:
+                name: n8n_configmap
+
       volumes:
         - name: n8n_data
           persistentVolumeClaim:

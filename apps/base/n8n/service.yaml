@@ -7,4 +7,4 @@ spec:
     - port: 9190
   selector:
     app: n8n 
-  type: ClusterIP
+  type: LoadBalancer 
