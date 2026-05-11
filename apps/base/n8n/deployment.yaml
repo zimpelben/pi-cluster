@@ -7,20 +7,24 @@ spec:
   selector:
     matchLabels:
       app: n8n 
+      
   template:
     metadata:
       labels:
         app: n8n 
+
     spec:
       securityContext:
-        fsGroup: 1000 # www-data group ID
-        runAsUser: 1000 # www-data user ID
-        runAsGroup: 1000 # www-data group ID
+        fsGroup: 1000 
+        runAsUser: 1000 
+        runAsGroup: 1000 
+
       containers:
         - name: n8n 
           image: docker.n8n.io/n8nio/n8n:2.19.5
+
           ports:
-            - containerPort: 9190
+            - containerPort: 3008
               protocol: TCP
 
           securityContext:
@@ -33,6 +37,8 @@ spec:
           envFrom:
             - configMapRef:
                 name: n8n_configmap
+      
+      restartPolicy: Always
 
       volumes:
         - name: n8n_data

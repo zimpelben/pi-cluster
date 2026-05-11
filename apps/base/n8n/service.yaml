@@ -4,7 +4,7 @@ metadata:
   name: n8n 
 spec:
   ports:
-    - port: 9190
+    - port: 3008
   selector:
     app: n8n 
-  type: LoadBalancer 
+  type: ClusterIP
